@@ -1,9 +1,12 @@
 Pure CSS CPS530 Assignment
 ========================
 
+Visit the website at purecss-assign.000webhostapp.com
+
 ## TODO
 	HOWTO
 	RESULT
+	ADD Profile pictures
 
 ## ASSIGN SHEET
 
