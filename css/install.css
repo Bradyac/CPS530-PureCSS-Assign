@@ -178,6 +178,10 @@ a.pure-button-primary {
  * -- CONTENT STYLES --
  * This represents the content area (everything below the blue section)
  */
+code {
+    color: #4a6684;
+}
+
 .content-wrapper {
     padding-top: 80px;
     text-align: center;
@@ -187,7 +191,7 @@ a.pure-button-primary {
 
 /* We want to give the content area some more padding */
 .content {
-    padding: 1em 1em 3em;
+    padding: 1em 1em 1em;
 }
 
 /* This is the class used for the main content headers (<h2>) */
@@ -213,6 +217,15 @@ a.pure-button-primary {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
+
+}
+
+.fixed-footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
 }
 
 /*
