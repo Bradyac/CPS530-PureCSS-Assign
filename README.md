@@ -7,6 +7,7 @@ Visit the website at purecss-assign.000webhostapp.com
 	HOWTO
 	RESULT
 	ADD Profile pictures
+	Change get started link
 
 ## ASSIGN SHEET
 
