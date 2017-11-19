@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pure.CSS Snapshot</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="css/install.css">
+</head>
+
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="">Pure.css</a>
+
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item pure-menu-selected"><a href="index.html" class="pure-menu-link">Home</a></li>
+            <li class="pure-menu-item"><a href="install.html" class="pure-menu-link">Installation</a></li>
+            <li class="pure-menu-item"><a href="howto.html" class="pure-menu-link">How-To</a></li>
+            <li class="pure-menu-item"><a href="conclusion.html" class="pure-menu-link">Conclusion</a></li>
+            <li class="pure-menu-item"><a href="credits.html" class="pure-menu-link">Credits</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="content-wrapper">
+     <div class="content-head">
+       <h1> CDN Installation Guide </h1>
+     </div>
+     <div class="content">
+       <p>
+	 Using a CDN for Pure is the easiest way to get up and running quickly. Similar to importing other css files it can simply be done using a link tag.
+       </p>
+
+<code class="rainbow"><span class="support tag"><span class="support tag">&lt;</span><span class="support tag-name">link</span></span> <span class="support attribute">rel</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">stylesheet</span><span class="string quote">"</span> <span class="support attribute">href</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">https://unpkg.com/purecss@1.0.0/build/pure-min.css</span><span class="string quote">"</span> <span class="support attribute">integrity</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w</span><span class="string quote">"</span> <span class="support attribute">crossorigin</span><span class="support operator">=</span><span class="string quote">"</span><span class="string value">anonymous</span><span class="string quote">"</span><span class="support tag close">&gt;</span></code>
+     </div>
+
+     <p> You could also import individual modules using the following links. </p>
+     <div class="table-responsive" style="margin-left: 40px;">
+        <table class="pure-table pure-table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>URL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Base</td>
+                    <td>https://unpkg.com/purecss@1.0.0/build/base-min.css</td>
+                </tr>
+                <tr>
+                    <td>Buttons</td>
+                    <td>https://unpkg.com/purecss@1.0.0/build/buttons-min.css</td>
+                </tr>
+                <tr>
+                    <td>Forms (Responsive)</td>
+                    <td>https://unpkg.com/purecss@1.0.0/build/forms-min.css</td>
+                </tr>
+                <tr>
+                    <td>Forms (Non-Responsive)</td>
+                    <td>https://unpkg.com/purecss@1.0.0/build/forms-nr-min.css</td>
+                </tr>
+                <tr>
+                    <td>Grids (Base)</td>
+                    <td>https://unpkg.com/purecss@1.0.0/build/grids-min.css</td>
+                </tr>
+                <tr>
+                    <td>Grids (Responsive)</td>
+                    <td>https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css</td>
+                </tr>
+                <tr>
+                    <td>Menus (Responsive)</td>
+                    <td>https://unpkg.com/purecss@1.0.0/build/menus-min.css</td>
+                </tr>
+                <tr>
+                    <td>Tables</td>
+                    <td>https://unpkg.com/purecss@1.0.0/build/tables-min.css</td>
+                </tr>
+            </tbody>
+        </table>
+     </div>
+     
+       <div class="content-head">
+       <h1> NPM Installation Guide </h1>
+       </div>
+<div class="content">	    
+       <p>
+	 Note that when using any frameworks through a CDN, the files that make up the framework are immutable. This means in order to take specific parts of Pure.css you would have to download the individual files and edit them based on what you need. This can be done easily with NPM install.
+       </p>
+
+       <code> $ npm install purecss </code>
+       
+     </div>
+</div>
+
+
+</html>
