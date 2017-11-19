@@ -2,9 +2,11 @@ Pure CSS CPS530 Assignment
 ========================
 
 ## TODO
-
-## DONE
-
+	INSTALLAION
+	HOWTO
+	RESULT
+	CONCLUSION
+	CREDItS
 ## ASSIGN SHEET
 
 CPS530 - Term Project
