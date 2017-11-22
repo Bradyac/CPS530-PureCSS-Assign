@@ -115,8 +115,12 @@ a.pure-button-primary {
     color: white;
 }
 
+.pure-menu-selected .pure-menu-link:visited {
+    color:#6FBEF3;
+}
+
 .home-menu a {
-    color: #6FBEF3;
+    color:white;
 }
 .home-menu li a:hover,
 .home-menu li a:focus {
